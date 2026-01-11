@@ -2,11 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://bath-plumbers.co.uk/sitemap.xml
-
-# Disallow admin and private directories
-Disallow: /admin/
-Disallow: /private/
-
-# Allow all crawlers access to assets
-Allow: /assets/
-Allow: /images/

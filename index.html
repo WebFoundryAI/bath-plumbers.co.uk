@@ -1,146 +1,247 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional plumbing services. 24/7 emergency callouts, boiler repairs, bathroom installations, and more.">
+    <meta name="description" content="Bath Plumbers - Trusted local plumbers serving Bath and North East Somerset. Emergency callouts, boiler repairs, bathroom installations. Call 01225 123456.">
     <meta name="robots" content="index, follow">
-    <meta name="author" content="Local Plumbers">
-
-    <!-- Open Graph -->
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Professional Plumbing Services">
-    <meta property="og:description" content="Professional plumbing services. 24/7 emergency callouts, boiler repairs, bathroom installations.">
-    <meta property="og:image" content="images/og-image.jpg">
-
-    <!-- Canonical URL - Update per domain -->
-    <link rel="canonical" href="">
-
-    <title>Professional Plumbing Services | Local Plumbers</title>
-
+    <link rel="canonical" href="https://bath-plumbers.co.uk/">
+    <title>Bath Plumbers | Local Plumbing Services | Bath & North East Somerset</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-
-    <!-- Schema.org structured data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "Local Plumbers",
-        "description": "Professional plumbing services including emergency repairs, boiler installations, and bathroom fitting.",
-        "telephone": "",
+        "@id": "https://bath-plumbers.co.uk/#business",
+        "name": "Bath Plumbers",
+        "image": "https://bath-plumbers.co.uk/images/logo.png",
+        "telephone": "+44-1225-123456",
+        "email": "info@bath-plumbers.co.uk",
+        "url": "https://bath-plumbers.co.uk/",
         "address": {
             "@type": "PostalAddress",
-            "addressLocality": "",
-            "addressRegion": "",
+            "streetAddress": "Milsom Street",
+            "addressLocality": "Bath",
+            "addressRegion": "Somerset",
+            "postalCode": "BA1",
             "addressCountry": "GB"
         },
-        "openingHours": "Mo-Su 00:00-23:59",
-        "priceRange": "££"
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 51.3811,
+            "longitude": -2.3590
+        },
+        "openingHoursSpecification": [
+            {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "07:30", "closes": "18:00"},
+            {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Saturday"], "opens": "08:00", "closes": "14:00"}
+        ],
+        "priceRange": "££",
+        "areaServed": ["Bath", "Keynsham", "Midsomer Norton", "Radstock", "North East Somerset", "Wiltshire"],
+        "serviceType": ["Plumber", "Emergency Plumber", "Boiler Service", "Bathroom Installation", "Leak Repair"]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": "Do you offer emergency plumbing in Bath?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, we provide emergency plumbing services across Bath and North East Somerset. Call 01225 123456 for urgent assistance."}},
+            {"@type": "Question", "name": "Are your plumbers qualified?", "acceptedAnswer": {"@type": "Answer", "text": "All our plumbers are fully qualified and insured. Our gas engineers are Gas Safe registered for boiler and heating work."}},
+            {"@type": "Question", "name": "Do you work on period properties in Bath?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, we have extensive experience working on Georgian, Victorian, and other period properties throughout Bath, understanding their unique plumbing requirements."}},
+            {"@type": "Question", "name": "What areas do you cover?", "acceptedAnswer": {"@type": "Answer", "text": "We cover Bath city centre and all surrounding areas including Keynsham, Midsomer Norton, Radstock, Bradford-on-Avon, and into North East Somerset."}}
+        ]
     }
     </script>
 </head>
 <body>
     <header class="site-header">
-        <nav class="main-nav">
-            <div class="logo">
-                <a href="index.html">Local Plumbers</a>
+        <div class="header-top">
+            <div class="container">
+                <span class="emergency-banner">Emergency Plumber Available</span>
+                <a href="tel:+441225123456" class="header-phone">01225 123456</a>
             </div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/services.html">Services</a></li>
-                <li><a href="pages/areas.html">Areas</a></li>
-                <li><a href="pages/about.html">About</a></li>
-                <li><a href="pages/contact.html">Contact</a></li>
-            </ul>
-            <a href="tel:" class="cta-button">Call Now</a>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <a href="/" class="logo">Bath Plumbers</a>
+                <ul class="nav-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/services/">Services</a></li>
+                    <li><a href="/locations/">Locations</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+                <a href="tel:+441225123456" class="cta-button">01225 123456</a>
+            </div>
         </nav>
     </header>
 
     <main>
         <section class="hero">
-            <div class="hero-content">
-                <h1>Professional Plumbing Services</h1>
-                <p>24/7 Emergency Callouts | Boiler Repairs | Bathroom Installations</p>
-                <a href="pages/contact.html" class="cta-button">Get a Free Quote</a>
+            <div class="container">
+                <h1>Trusted Local Plumbers in Bath</h1>
+                <p class="hero-subtitle">Professional Plumbing Services for Bath and North East Somerset</p>
+                <div class="hero-cta">
+                    <a href="tel:+441225123456" class="btn btn-primary btn-large">Call Now: 01225 123456</a>
+                    <a href="/contact.html" class="btn btn-secondary btn-large">Request a Quote</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro-section">
+            <div class="container">
+                <h2>Your Local Bath Plumbing Experts</h2>
+                <p>Welcome to Bath Plumbers, your reliable local plumbing service for Bath and the surrounding North East Somerset region. For over a decade, we have been providing high-quality plumbing solutions to homeowners and businesses across this beautiful city. From the elegant Georgian townhouses of the Royal Crescent to modern developments in Odd Down, our experienced team handles every plumbing challenge with skill and professionalism.</p>
+                <p>Bath presents unique plumbing challenges. The city's stunning Georgian architecture and listed buildings require specialist knowledge and a sympathetic approach to maintenance and repairs. Our plumbers understand the intricacies of period plumbing systems, from original lead pipework to Victorian cast iron, whilst being fully equipped to work with modern installations. We combine traditional craftsmanship with contemporary techniques to deliver solutions that respect your property's heritage.</p>
+                <p>Whether you need an <a href="/emergency-plumber-bath.html">emergency plumber</a> to address a sudden leak, routine <a href="/boiler-servicing-bath.html">boiler servicing</a> to maintain your heating system, a complete <a href="/bathroom-fitting-bath.html">bathroom installation</a>, or help with <a href="/leak-detection-bath.html">leak detection</a>, Bath Plumbers delivers reliable service at fair prices. We pride ourselves on honest advice, transparent pricing, and workmanship that stands the test of time.</p>
             </div>
         </section>
 
         <section class="services-overview">
-            <h2>Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
-                    <h3>Emergency Plumbing</h3>
-                    <p>24/7 emergency callouts for burst pipes, leaks, and blockages.</p>
+            <div class="container">
+                <h2>Our Plumbing Services</h2>
+                <p>We offer a comprehensive range of plumbing services to meet every need in Bath and North East Somerset. Our qualified team handles jobs of all sizes with the same commitment to quality.</p>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <h3><a href="/emergency-plumber-bath.html">Emergency Plumber</a></h3>
+                        <p>Rapid response for plumbing emergencies including burst pipes, severe leaks, blocked drains, and flooding. We understand that emergencies cannot wait, which is why we offer prompt callouts across Bath and surrounding areas.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3><a href="/boiler-servicing-bath.html">Boiler Servicing</a></h3>
+                        <p>Annual boiler servicing and repairs by Gas Safe registered engineers. Keep your heating system safe and efficient with our comprehensive service, which includes all necessary safety checks and efficiency testing.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3><a href="/bathroom-fitting-bath.html">Bathroom Fitting</a></h3>
+                        <p>Complete bathroom installation services from design consultation through to completion. We transform bathrooms of all sizes, from compact en-suites to luxurious master bathrooms in period properties.</p>
+                    </div>
+                    <div class="service-card">
+                        <h3><a href="/leak-detection-bath.html">Leak Detection</a></h3>
+                        <p>Professional leak detection using specialist equipment to locate hidden leaks without unnecessary disruption. Essential for Bath's period properties where hidden leaks can cause significant damage.</p>
+                    </div>
                 </div>
-                <div class="service-card">
-                    <h3>Boiler Services</h3>
-                    <p>Installation, repairs, and annual servicing for all boiler types.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Bathroom Installation</h3>
-                    <p>Complete bathroom fitting and renovation services.</p>
-                </div>
-                <div class="service-card">
-                    <h3>Central Heating</h3>
-                    <p>Heating system installation, repairs, and maintenance.</p>
-                </div>
+                <p style="text-align: center; margin-top: 2rem;"><a href="/services/" class="btn btn-outline">View All Services</a></p>
             </div>
         </section>
 
         <section class="why-choose-us">
-            <h2>Why Choose Us</h2>
-            <ul class="features-list">
-                <li>Gas Safe Registered Engineers</li>
-                <li>No Call Out Charge</li>
-                <li>Fixed Price Quotes</li>
-                <li>Local & Trusted</li>
-                <li>24/7 Availability</li>
-            </ul>
+            <div class="container">
+                <h2>Why Choose Bath Plumbers?</h2>
+                <p>When you need a plumber in Bath, you want someone you can trust. Here is why local homeowners and businesses choose us for their plumbing needs:</p>
+                <div class="features-grid">
+                    <div class="feature">
+                        <h3>Period Property Specialists</h3>
+                        <p>We have extensive experience working on Georgian, Victorian, and Edwardian properties throughout Bath. We understand period plumbing systems and work sensitively with listed buildings.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Fully Qualified Team</h3>
+                        <p>All our plumbers are fully qualified, insured, and vetted. Our gas engineers hold current Gas Safe registration. You can be confident in our workmanship and professionalism.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Transparent Pricing</h3>
+                        <p>We provide clear quotes before starting work with no hidden charges. Our pricing is fair and competitive, and we explain all costs upfront so there are no surprises.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Local Knowledge</h3>
+                        <p>Based in Bath, we know the area intimately. This means faster response times, knowledge of local suppliers, and understanding of the specific challenges Bath properties present.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="areas-covered">
-            <h2>Areas We Cover</h2>
-            <p>We provide plumbing services across the local area and surrounding regions.</p>
-            <a href="pages/areas.html" class="text-link">View all areas →</a>
+        <section class="locations-preview">
+            <div class="container">
+                <h2>Serving Bath and North East Somerset</h2>
+                <p>Our plumbers provide complete coverage across Bath and North East Somerset. From the city centre to outlying villages, we deliver consistent, quality service wherever you are located.</p>
+                <p>Within Bath, we cover all areas including <a href="/locations/bath-city-centre.html">Bath City Centre</a>, <a href="/locations/lansdown.html">Lansdown</a>, <a href="/locations/widcombe.html">Widcombe</a>, <a href="/locations/oldfield-park.html">Oldfield Park</a>, <a href="/locations/combe-down.html">Combe Down</a>, <a href="/locations/odd-down.html">Odd Down</a>, and <a href="/locations/weston.html">Weston</a>. Our coverage extends to <a href="/locations/keynsham.html">Keynsham</a>, <a href="/locations/midsomer-norton.html">Midsomer Norton</a>, <a href="/locations/radstock.html">Radstock</a>, and into <a href="/locations/bradford-on-avon.html">Bradford-on-Avon</a>.</p>
+                <p>Whether you are in a Georgian townhouse overlooking the Royal Crescent or a cottage in Batheaston, quality plumbing services are just a phone call away.</p>
+                <p><a href="/locations/" class="btn btn-outline">View All Locations</a></p>
+            </div>
+        </section>
+
+        <section class="heritage-section">
+            <div class="container">
+                <h2>Understanding Bath's Historic Properties</h2>
+                <p>Bath's World Heritage status reflects the exceptional quality of its Georgian architecture. Working on these properties requires more than standard plumbing skills. Our team understands the construction methods, materials, and design features unique to Bath's historic buildings.</p>
+                <p>Period properties often feature original lead pipework, cast iron soil stacks, and ceramic sanitary ware that require specialist knowledge to maintain and repair. Modern plumbing installations must be carried out sensitively, often requiring coordination with conservation officers for listed building consent. We have established relationships with Bath and North East Somerset Council and understand the planning requirements for work on historic buildings.</p>
+                <p>From concealed leak repairs that minimise disruption to period features, to bathroom renovations that respect original character, we approach every job with care for your property's heritage.</p>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <h3>Do you offer emergency plumbing in Bath?</h3>
+                        <p>Yes, we provide emergency plumbing services across Bath and North East Somerset. For urgent plumbing problems such as burst pipes, severe leaks, or flooding, call 01225 123456 for prompt assistance.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Are your plumbers qualified?</h3>
+                        <p>All our plumbers are fully qualified and insured. Our gas engineers are Gas Safe registered and carry their identification at all times. We can provide references and credentials on request.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>Do you work on period properties in Bath?</h3>
+                        <p>Yes, we have extensive experience working on Georgian, Victorian, and other period properties throughout Bath. We understand their unique plumbing requirements and work sensitively with listed buildings, coordinating with conservation requirements where necessary.</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>What areas do you cover?</h3>
+                        <p>We cover Bath city centre and all surrounding areas including Keynsham, Midsomer Norton, Radstock, Bradford-on-Avon, Corsham, and throughout North East Somerset. Contact us if you are unsure whether we cover your location.</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <section class="cta-section">
-            <h2>Need a Plumber?</h2>
-            <p>Get in touch for a free, no-obligation quote.</p>
-            <a href="pages/contact.html" class="cta-button">Contact Us</a>
+            <div class="container">
+                <h2>Need a Plumber in Bath?</h2>
+                <p>Contact Bath Plumbers today for reliable, professional plumbing services.</p>
+                <div class="cta-buttons">
+                    <a href="tel:+441225123456" class="btn btn-primary btn-large">Call: 01225 123456</a>
+                    <a href="/contact.html" class="btn btn-secondary btn-large">Request Callback</a>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer class="site-footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="pages/services.html">Services</a></li>
-                    <li><a href="pages/areas.html">Areas</a></li>
-                    <li><a href="pages/about.html">About</a></li>
-                    <li><a href="pages/contact.html">Contact</a></li>
-                </ul>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Bath Plumbers</h4>
+                    <p>Professional plumbing services across Bath and North East Somerset. Specialists in period property plumbing.</p>
+                    <p><strong>Phone:</strong> <a href="tel:+441225123456">01225 123456</a></p>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="/emergency-plumber-bath.html">Emergency Plumber</a></li>
+                        <li><a href="/boiler-servicing-bath.html">Boiler Servicing</a></li>
+                        <li><a href="/bathroom-fitting-bath.html">Bathroom Fitting</a></li>
+                        <li><a href="/leak-detection-bath.html">Leak Detection</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Locations</h4>
+                    <ul>
+                        <li><a href="/locations/bath-city-centre.html">Bath City Centre</a></li>
+                        <li><a href="/locations/keynsham.html">Keynsham</a></li>
+                        <li><a href="/locations/midsomer-norton.html">Midsomer Norton</a></li>
+                        <li><a href="/locations/">All Locations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="/terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer-section">
-                <h4>Services</h4>
-                <ul>
-                    <li><a href="pages/services.html#emergency">Emergency Plumbing</a></li>
-                    <li><a href="pages/services.html#boilers">Boiler Services</a></li>
-                    <li><a href="pages/services.html#bathrooms">Bathrooms</a></li>
-                    <li><a href="pages/services.html#heating">Central Heating</a></li>
-                </ul>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bath Plumbers. All rights reserved.</p>
             </div>
-            <div class="footer-section">
-                <h4>Contact</h4>
-                <p>Available 24/7 for emergencies</p>
-                <a href="tel:" class="phone-link">Call Us</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2024 Local Plumbers. All rights reserved.</p>
-            <p><a href="pages/privacy.html">Privacy Policy</a> | <a href="pages/terms.html">Terms of Service</a></p>
         </div>
     </footer>
 </body>

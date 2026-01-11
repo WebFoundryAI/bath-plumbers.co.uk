@@ -3,43 +3,55 @@
     <url>
         <loc>https://bath-plumbers.co.uk/</loc>
         <lastmod>2024-01-01</lastmod>
-        <changefreq>weekly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://bath-plumbers.co.uk/pages/services.html</loc>
+        <loc>https://bath-plumbers.co.uk/emergency-plumber-bath.html</loc>
         <lastmod>2024-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://bath-plumbers.co.uk/pages/areas.html</loc>
+        <loc>https://bath-plumbers.co.uk/boiler-servicing-bath.html</loc>
         <lastmod>2024-01-01</lastmod>
         <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
+        <priority>0.9</priority>
     </url>
     <url>
-        <loc>https://bath-plumbers.co.uk/pages/about.html</loc>
+        <loc>https://bath-plumbers.co.uk/bathroom-fitting-bath.html</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://bath-plumbers.co.uk/leak-detection-bath.html</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://bath-plumbers.co.uk/about.html</loc>
         <lastmod>2024-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
     <url>
-        <loc>https://bath-plumbers.co.uk/pages/contact.html</loc>
+        <loc>https://bath-plumbers.co.uk/contact.html</loc>
+        <lastmod>2024-01-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+    <url>
+        <loc>https://bath-plumbers.co.uk/services/</loc>
         <lastmod>2024-01-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://bath-plumbers.co.uk/pages/privacy.html</loc>
+        <loc>https://bath-plumbers.co.uk/locations/</loc>
         <lastmod>2024-01-01</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.3</priority>
-    </url>
-    <url>
-        <loc>https://bath-plumbers.co.uk/pages/terms.html</loc>
-        <lastmod>2024-01-01</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.3</priority>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
 </urlset>
